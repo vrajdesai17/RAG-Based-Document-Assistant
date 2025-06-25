@@ -1,4 +1,4 @@
-# 🧠 RAG-based Domain-Specific Q&A System
+<img width="377" alt="image" src="https://github.com/user-attachments/assets/f646724d-efc9-4aa3-857d-71e3af42fa43" /># 🧠 RAG-based Domain-Specific Q&A System
 
 This is a lightweight Retrieval-Augmented Generation (RAG) app that lets users upload a PDF document and ask questions about its content. It's designed for **domain-specific question answering** using OpenAI's LLMs and ChromaDB for local vector search.
 
@@ -21,21 +21,8 @@ pip install -r requirements.txt
 
 ## Project Structure
 
-rag_qa_product/
-│
-├── app/
-│   └── main.py                 # Streamlit app entry point
-│
-├── backend/
-│   ├── processor.py            # Extracts and chunks PDF text
-│   ├── vector_store.py         # Handles vector DB logic
-│   └── llm.py                  # Interacts with OpenAI's LLM
-│
-├── data/                       # Local sample PDFs
-├── vector_db/                 # Local ChromaDB storage
-├── requirements.txt           # Python dependencies
-├── .env                       # Your OpenAI key (not committed)
-└── .gitignore
+<img width="556" alt="image" src="https://github.com/user-attachments/assets/eb506ff1-a9d0-41f7-869f-bb876e9d6b19" />
+
 
 ## Running Locally
 
