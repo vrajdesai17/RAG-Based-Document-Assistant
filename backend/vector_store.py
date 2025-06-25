@@ -4,7 +4,7 @@ import chromadb
 from chromadb.config import Settings
 from chromadb.utils import embedding_functions
 
-CHROMA_DIR = "vector_db"
+CHROMA_DIR = os.path.abspath("vector_db")
 COLLECTION_NAME = "rag_chunks"
 
 embedding_fn = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
