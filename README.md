@@ -1,4 +1,4 @@
-<img width="377" alt="image" src="https://github.com/user-attachments/assets/f646724d-efc9-4aa3-857d-71e3af42fa43" /># 🧠 RAG-based Domain-Specific Q&A System
+# 🧠 RAG-based Domain-Specific Q&A System
 
 This is a lightweight Retrieval-Augmented Generation (RAG) app that lets users upload a PDF document and ask questions about its content. It's designed for **domain-specific question answering** using OpenAI's LLMs and ChromaDB for local vector search.
 
