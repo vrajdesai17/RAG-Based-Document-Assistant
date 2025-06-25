@@ -4,11 +4,11 @@ import chromadb
 from chromadb.config import Settings
 from chromadb.utils import embedding_functions
 
-CHROMA_DIR = os.path.abspath("vector_db")
+CHROMA_DIR = "vector_db"
 COLLECTION_NAME = "rag_chunks"
 
 embedding_fn = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
-client = chromadb.Client()
+client = chromadb.PersistentClient(path=CHROMA_DIR)
 ## Use a safe path for Streamlit Cloud
 # Tells Chroma to use DuckDB (a lightweight SQL engine) + Parquet (a fast file format) to store vector data.
 collection = client.get_or_create_collection(name=COLLECTION_NAME, embedding_function=embedding_fn)
