@@ -59,6 +59,6 @@ Once you upload a PDF, try asking:
 
 ## 📬 Contact
 Feel free to reach out if you want to deploy or scale this further.
-Name: Vraj Desai
-Email: vrajdhar@usc.edu
-Contact: +1 2136915656
+- Name: Vraj Desai
+- Email: vrajdhar@usc.edu
+- Contact: +1 2136915656
