@@ -1,4 +1,4 @@
-# 🧠 RAG-based Domain-Specific Q&A System
+# 🧠 RAG-based Document Assistant
 
 This is a lightweight Retrieval-Augmented Generation (RAG) app that lets users upload a PDF document and ask questions about its content. It's designed for **domain-specific question answering** using OpenAI's LLMs and ChromaDB for local vector search.
 
